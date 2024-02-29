@@ -1,13 +1,13 @@
 
-var words = ['developer', 'callum', 'desiner'],
+var words = ['DEVELOPER', 'CALLUM', 'DESIGNER'],
     part,
     i = 0,
     offset = 0,
     len = words.length,
     forwards = true,
     skip_count = 0,
-    skip_delay = 15,
-    speed = 170;
+    skip_delay = 20,
+    speed = 130;
 var wordflick = function () {
   setInterval(function () {
     if (forwards) {
