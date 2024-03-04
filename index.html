@@ -11,18 +11,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <section id="nav-sec">
+        <!-- <nav id="menu" class="">
+            <div id="navSection" class="navber ">
+                <h1 id="heading">CALLUM</h1>
+            <div id="icon-div">
+                <p id="phn-number">(060) 444 434 444</p>
+                <img id="menu-icon" src="images/icons8-menu-50.png" alt="">
+            </div>
+            </div>
+        </nav> -->
+        <nav id="menu" class="navbar">
+            <h1 id="heading">CALLUM</h1>
+            <div id="icon-div">
+                <p id="phn-number">(060) 444 434 444</p>
+                <img id="menu-icon" src="images/icons8-menu-50.png" alt="">
+            </div>
+        </nav>
+    </section>
     <header class="" id="header-section">
         <!-- nav section -->
-        <section id="nav-sec">
-            <nav id="navbar">
-                <h1 id="heading">CALLUM</h1>
-                <div id="icon-div">
-                    <p id="phn-number">(060) 444 434 444</p>
-                    <img id="menu-icon" src="images/icons8-menu-50.png" alt="">
-                </div>
-            </nav>
-        </section>
+       
         <!-- header body section -->
         <section id="header-body-sec">
             <div id="header-body">
@@ -170,7 +179,7 @@
                         <div>
                             <div class="bar-head">
                                 <h2 class="bar-name">Web Design</h2>
-                                <h3>65%</h3>
+                                <h3 class="bar-percent">65%</h3>
                             </div>
                             <div class="container">
                                 <div class="progress1 progress-moved">
@@ -182,7 +191,7 @@
                         <div>
                             <div class="bar-head">
                                 <h2 class="bar-name">JavaScript</h2>
-                                <h3>80%</h3>
+                                <h3 class="bar-percent">80%</h3>
                             </div>
                             <div class="container">
                                 <div class="progress2 progress-moved">
@@ -194,7 +203,7 @@
                         <div>
                             <div class="bar-head">
                                 <h2 class="bar-name">Angular Js</h2>
-                                <h3>60%</h3>
+                                <h3 class="bar-percent">60%</h3>
                             </div>
                             <div class="container">
                                 <div class="progress3 progress-moved">
@@ -206,7 +215,7 @@
                         <div>
                             <div class="bar-head">
                                 <h2 class="bar-name">HTML/CSS</h2>
-                                <h3>95%</h3>
+                                <h3 class="bar-percent">95%</h3>
                             </div>
                             <div class="container">
                                 <div class="progress4 progress-moved">
@@ -218,7 +227,7 @@
                         <div>
                             <div class="bar-head">
                                 <h2 class="bar-name">React JS</h2>
-                                <h3>70%</h3>
+                                <h3 class="bar-percent">70%</h3>
                             </div>
                             <div class="container">
                                 <div class="progress5 progress-moved">
@@ -230,7 +239,7 @@
                         <div>
                             <div class="bar-head">
                                 <h2 class="bar-name">Bootstrap</h2>
-                                <h3>99%</h3>
+                                <h3 class="bar-percent">99%</h3>
                             </div>
                             <div class="container">
                                 <div class="progress6 progress-moved">
@@ -249,7 +258,7 @@
             <div id="portfolio">
                 <div>
                     <div id="for-center"><h4 class="head">Portfolio</h4></div>
-                    <h1 class="head2">Some of my most recent projects</h1>
+                    <h1 class="head2" id="less-width">Some of my most recent projects</h1>
                 </div>
                 <div id="port-items">
                     <div id="portfolio-menu">
@@ -391,15 +400,13 @@
             <p id="client-co">User from UK</p>
                     </div>
         </div>
-    </swiper-slide>
+        </swiper-slide>
            
-  </swiper-container>
-                <!-- </div> -->
-            </div>
-            
-        </section>
-        <!-- contact section -->
-        <section id="contact-section">
+        </swiper-container>
+    </div>
+</section>
+    <!-- contact section -->
+    <section id="contact-section">
             <div id="contact">
                 <div>
                     <h1 class="contac-head">Let's get in touch</h1>
@@ -449,6 +456,7 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="nav.js"></script>
     <script src="port.js"></script>
 </body>
 </html>
